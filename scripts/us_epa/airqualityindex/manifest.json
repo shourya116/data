@@ -17,7 +17,7 @@
                 {
                     "template_mcf": "EPA_AQI.tmcf",
                     "cleaned_csv": "output/EPA_AQI.csv",
-                    "node_mcf": "output/EPA_AQI.mcf"
+                    "node_mcf": "EPA_AQI.mcf"
                 }
             ],
             "cron_schedule": "15 22 10 1,7 *",
