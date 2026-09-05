@@ -143,3 +143,386 @@ populationType: dcs:Atmosphere
 measuredProperty: dcs:airQualityIndex
 statType: dcs:measuredValue
 pollutant: dcs:PM10
+
+## Custom Units
+
+Node: dcid:MicrogramsPerCubicMeter_lc
+typeOf: dcs:UnitOfMeasure
+name: "MicrogramsPerCubicMeter_lc"
+description: "Micrograms per cubic meter (local conditions)"
+
+Node: dcid:MicrogramsPerCubicMeter_25C
+typeOf: dcs:UnitOfMeasure
+name: "MicrogramsPerCubicMeter_25C"
+description: "Micrograms per cubic meter at 25 degrees Celsius"
+
+## Measurement Standards
+
+Node: dcid:Ozone_8hour_2015
+typeOf: dcs:MeasurementMethodEnum
+name: "Ozone_8hour_2015"
+
+Node: dcid:Ozone_8hour_2008
+typeOf: dcs:MeasurementMethodEnum
+name: "Ozone_8hour_2008"
+
+Node: dcid:Ozone_8hour_1997
+typeOf: dcs:MeasurementMethodEnum
+name: "Ozone_8hour_1997"
+
+Node: dcid:Ozone_1hour_1979
+typeOf: dcs:MeasurementMethodEnum
+name: "Ozone_1hour_1979"
+
+Node: dcid:SO2_1hour_2010
+typeOf: dcs:MeasurementMethodEnum
+name: "SO2_1hour_2010"
+
+Node: dcid:SO2_24hour_1971
+typeOf: dcs:MeasurementMethodEnum
+name: "SO2_24hour_1971"
+
+Node: dcid:SO2_3hour_1971
+typeOf: dcs:MeasurementMethodEnum
+name: "SO2_3hour_1971"
+
+Node: dcid:SO2_Annual_1971
+typeOf: dcs:MeasurementMethodEnum
+name: "SO2_Annual_1971"
+
+Node: dcid:CO_1hour_1971
+typeOf: dcs:MeasurementMethodEnum
+name: "CO_1hour_1971"
+
+Node: dcid:CO_8hour_1971
+typeOf: dcs:MeasurementMethodEnum
+name: "CO_8hour_1971"
+
+Node: dcid:NO2_1hour
+typeOf: dcs:MeasurementMethodEnum
+name: "NO2_1hour"
+
+Node: dcid:NO2_1hour_2010
+typeOf: dcs:MeasurementMethodEnum
+name: "NO2_1hour_2010"
+
+Node: dcid:NO2_Annual_1971
+typeOf: dcs:MeasurementMethodEnum
+name: "NO2_Annual_1971"
+
+Node: dcid:PM25_24hour_2012
+typeOf: dcs:MeasurementMethodEnum
+name: "PM25_24hour_2012"
+
+Node: dcid:PM25_24hour_2006
+typeOf: dcs:MeasurementMethodEnum
+name: "PM25_24hour_2006"
+
+Node: dcid:PM25_24hour_1997
+typeOf: dcs:MeasurementMethodEnum
+name: "PM25_24hour_1997"
+
+Node: dcid:PM25_Annual_2012
+typeOf: dcs:MeasurementMethodEnum
+name: "PM25_Annual_2012"
+
+Node: dcid:PM25_Annual_2006
+typeOf: dcs:MeasurementMethodEnum
+name: "PM25_Annual_2006"
+
+Node: dcid:PM25_Annual_1997
+typeOf: dcs:MeasurementMethodEnum
+name: "PM25_Annual_1997"
+
+Node: dcid:PM10_24hour_2006
+typeOf: dcs:MeasurementMethodEnum
+name: "PM10_24hour_2006"
+
+Node: dcid:PM10_Annual_1987
+typeOf: dcs:MeasurementMethodEnum
+name: "PM10_Annual_1987"
+
+
+## Unindexed EPA Air Quality Monitoring Sites
+
+Node: dcid:epa/040017107
+typeOf: dcs:AirQualitySite
+name: "SH373/260 Eagar AZ"
+location: [latLong 34.078 -109.467]
+containedInPlace: dcid:geoId/04001
+
+Node: dcid:epa/040070013
+typeOf: dcs:AirQualitySite
+name: "Miami Solitude"
+location: [latLong 33.398615 -110.84502]
+containedInPlace: dcid:geoId/04007
+
+Node: dcid:epa/040077106
+typeOf: dcs:AirQualitySite
+name: "State Highway 288, Young, AZ"
+location: [latLong 33.802 -110.918]
+containedInPlace: dcid:geoId/04007
+
+Node: dcid:epa/040132601
+typeOf: dcs:AirQualitySite
+name: "Temporary Durango Complex Site"
+location: [latLong 33.426663 -112.118716]
+containedInPlace: dcid:geoId/04013
+
+Node: dcid:epa/060450011
+typeOf: dcs:AirQualitySite
+name: "Ukiah-Municipal Airport"
+location: [latLong 39.125276 -123.202448]
+containedInPlace: dcid:geoId/06045
+
+Node: dcid:epa/080690015
+typeOf: dcs:AirQualitySite
+name: "Fossil Creek"
+location: [latLong 40.48346 -105.01618]
+containedInPlace: dcid:geoId/08069
+
+Node: dcid:epa/080690017
+typeOf: dcs:AirQualitySite
+name: "Mehaffey Park"
+location: [latLong 40.41883 -105.12796]
+containedInPlace: dcid:geoId/08069
+
+Node: dcid:epa/120110037
+typeOf: dcs:AirQualitySite
+name: "Pompano Beach EJ"
+location: [latLong 26.249231 -80.162789]
+containedInPlace: dcid:geoId/12011
+
+Node: dcid:epa/121030028
+typeOf: dcs:AirQualitySite
+name: "St. Pete Midtown"
+location: [latLong 27.75704 -82.6618]
+containedInPlace: dcid:geoId/12103
+
+Node: dcid:epa/170890124
+typeOf: dcs:AirQualitySite
+name: "Elgin DMV"
+location: [latLong 42.021314 -88.282985]
+containedInPlace: dcid:geoId/17089
+
+Node: dcid:epa/181470011
+typeOf: dcs:AirQualitySite
+name: "Dale- N. Wallace St."
+location: [latLong 38.17013 -86.987233]
+containedInPlace: dcid:geoId/18147
+
+Node: dcid:epa/181630024
+typeOf: dcs:AirQualitySite
+name: "Evansville Oak Hill"
+location: [latLong 37.988682 -87.531381]
+containedInPlace: dcid:geoId/18163
+
+Node: dcid:epa/191130042
+typeOf: dcs:AirQualitySite
+name: "MCKINLEY STEAM"
+location: [latLong 41.98088 -91.65391]
+containedInPlace: dcid:geoId/19113
+
+Node: dcid:epa/191531427
+typeOf: dcs:AirQualitySite
+name: "EAST HIGH SCHOOL, DES MOINES IA, FRM, SEQ. SAMPLER, SPM, ROOF"
+location: [latLong 41.599751 -93.599504]
+containedInPlace: dcid:geoId/19153
+
+Node: dcid:epa/191870013
+typeOf: dcs:AirQualitySite
+name: "Day Park"
+location: [latLong 42.504804 -94.177399]
+containedInPlace: dcid:geoId/19187
+
+Node: dcid:epa/200459991
+typeOf: dcs:AirQualitySite
+name: "Haskell Indian Nations University"
+location: [latLong 38.9349 -95.2309]
+containedInPlace: dcid:geoId/20045
+
+Node: dcid:epa/210470007
+typeOf: dcs:AirQualitySite
+name: "Pennyrile Forest State Park Road and Bainbridge Road"
+location: [latLong 37.057818 -87.649809]
+containedInPlace: dcid:geoId/21047
+
+Node: dcid:epa/210590015
+typeOf: dcs:AirQualitySite
+name: "Meadow Lands (Owensboro)"
+location: [latLong 37.771671 -87.055819]
+containedInPlace: dcid:geoId/21059
+
+Node: dcid:epa/210930007
+typeOf: dcs:AirQualitySite
+name: "Freeman Lake"
+location: [latLong 37.714513 -85.878227]
+containedInPlace: dcid:geoId/21093
+
+Node: dcid:epa/250092007
+typeOf: dcs:AirQualitySite
+name: "Bristow St"
+location: [latLong 42.444722 -70.988889]
+containedInPlace: dcid:geoId/25009
+
+Node: dcid:epa/250170011
+typeOf: dcs:AirQualitySite
+name: "110 Western Ave"
+location: [latLong 42.26381 -71.405658]
+containedInPlace: dcid:geoId/25017
+
+Node: dcid:epa/270135510
+typeOf: dcs:AirQualitySite
+name: "Rosa Parks Elementary"
+location: [latLong 44.1364 -93.9813]
+containedInPlace: dcid:geoId/27013
+
+Node: dcid:epa/271153061
+typeOf: dcs:AirQualitySite
+name: "Lake Lena"
+location: [latLong 46.011578 -92.487317]
+containedInPlace: dcid:geoId/27115
+
+Node: dcid:epa/290950043
+typeOf: dcs:AirQualitySite
+name: "1076 E 103rd St. Kansas City, MO 64131"
+location: [latLong 38.940794 -94.578508]
+containedInPlace: dcid:geoId/29095
+
+Node: dcid:epa/311657103
+typeOf: dcs:AirQualitySite
+name: "Fort Robinson"
+location: [latLong 42.71 -103.591]
+containedInPlace: dcid:geoId/31165
+
+Node: dcid:epa/330012008
+typeOf: dcs:AirQualitySite
+name: "379 South Main St. Laconia"
+location: [latLong 43.52496 -71.466336]
+containedInPlace: dcid:geoId/33001
+
+Node: dcid:epa/340070010
+typeOf: dcs:AirQualitySite
+name: "South Camden"
+location: [latLong 39.923969 -75.122317]
+containedInPlace: dcid:geoId/34007
+
+Node: dcid:epa/350037501
+typeOf: dcs:AirQualitySite
+name: "Gila Wilderness Ozone Monitoring Site"
+location: [latLong 33.22 -108.235]
+containedInPlace: dcid:geoId/35003
+
+Node: dcid:epa/350277104
+typeOf: dcs:AirQualitySite
+name: "1000 SH220 Alto, NM 88312"
+location: [latLong 33.469 -105.535]
+containedInPlace: dcid:geoId/35027
+
+Node: dcid:epa/480290677
+typeOf: dcs:AirQualitySite
+name: "Old Hwy 90"
+location: [latLong 29.423938 -98.580505]
+containedInPlace: dcid:geoId/48029
+
+Node: dcid:epa/480291097
+typeOf: dcs:AirQualitySite
+name: "San Antonio Interstate 10 West"
+location: [latLong 29.485102 -98.531366]
+containedInPlace: dcid:geoId/48029
+
+Node: dcid:epa/482011056
+typeOf: dcs:AirQualitySite
+name: "Houston Pleasantville Elementary"
+location: [latLong 29.763567 -95.272233]
+containedInPlace: dcid:geoId/48201
+
+Node: dcid:epa/482011099
+typeOf: dcs:AirQualitySite
+name: "Houston Finnigan Park"
+location: [latLong 29.769442 -95.318978]
+containedInPlace: dcid:geoId/48201
+
+Node: dcid:epa/530090019
+typeOf: dcs:AirQualitySite
+name: "Bahokas Peak"
+location: [latLong 48.371035 -124.67371]
+containedInPlace: dcid:geoId/53009
+
+Node: dcid:epa/530330040
+typeOf: dcs:AirQualitySite
+name: "SeaTac-Sunset Park"
+location: [latLong 47.4785 -122.3111]
+containedInPlace: dcid:geoId/53033
+
+Node: dcid:epa/530330095
+typeOf: dcs:AirQualitySite
+name: "Kent-S 236th St"
+location: [latLong 47.390821 -122.25585]
+containedInPlace: dcid:geoId/53033
+
+Node: dcid:epa/530470002
+typeOf: dcs:AirQualitySite
+name: "229 School House Loop Road"
+location: [latLong 48.165311 -118.9848]
+containedInPlace: dcid:geoId/53047
+
+Node: dcid:epa/530610022
+typeOf: dcs:AirQualitySite
+name: "Everett-Beverly Park Rd"
+location: [latLong 47.893611 -122.269722]
+containedInPlace: dcid:geoId/53061
+
+Node: dcid:epa/560050019
+typeOf: dcs:AirQualitySite
+name: "Wright Mobile"
+location: [latLong 43.751577 -105.493081]
+containedInPlace: dcid:geoId/56005
+
+Node: dcid:epa/560050911
+typeOf: dcs:AirQualitySite
+name: "Caballo Mine CB-10"
+location: [latLong 44.1775 -105.43917]
+containedInPlace: dcid:geoId/56005
+
+Node: dcid:epa/560070011
+typeOf: dcs:AirQualitySite
+name: "1616 Harshman St., Rawlins, WY 82301"
+location: [latLong 41.80546 -107.22695]
+containedInPlace: dcid:geoId/56007
+
+Node: dcid:epa/560130005
+typeOf: dcs:AirQualitySite
+name: "2580 Badwater Rd., Lysite, WY, 82642"
+location: [latLong 43.274208 -107.691767]
+containedInPlace: dcid:geoId/56013
+
+Node: dcid:epa/560130006
+typeOf: dcs:AirQualitySite
+name: "Shortite Dr, Riverton, WY 82501"
+location: [latLong 43.02421 -108.3637]
+containedInPlace: dcid:geoId/56013
+
+Node: dcid:epa/560230005
+typeOf: dcs:AirQualitySite
+name: "SBV - Kemmerer"
+location: [latLong 41.792581 -110.580761]
+containedInPlace: dcid:geoId/56023
+
+Node: dcid:epa/560357101
+typeOf: dcs:AirQualitySite
+name: "White PIne"
+location: [latLong 42.967 -109.748]
+containedInPlace: dcid:geoId/56035
+
+Node: dcid:epa/560357102
+typeOf: dcs:AirQualitySite
+name: "Pinyon Ridge"
+location: [latLong 43.392 -109.913]
+containedInPlace: dcid:geoId/56035
+
+Node: dcid:epa/560370029
+typeOf: dcs:AirQualitySite
+name: "2500 College Drive, Rock Springs, WY 82901"
+location: [latLong 41.588856 -109.237842]
+containedInPlace: dcid:geoId/56037
